@@ -24,9 +24,8 @@ Problem Definition :
 ├── package-lock.json
 └── tail.js
 
-              Now when I say read  each and every file in my diretory and print it's content say last 10 lines it should print sequentially , right ? But it doesn't . It's due to asynchronous behaviour of Node.js 
-              This is possible only when you return promises from each function . This demonstration is done by this code . 
-
-Procedure :
-                - Download source code
-                - node tail.js
+Problem Using read() function :
+          When I use read function from file system module it actually reads all file names once and then prints all file data.
+Solution over read() :
+          Using promise it can be easily achivable . Returning a promise while reading each file can solve this problem easily
+      
