@@ -1,4 +1,4 @@
-# synchvsasync
+# How to handle promise in Nodejs ?
 This will demonstrate you , difference between asynchronus and synchronus
 
 Problem Definition : 
